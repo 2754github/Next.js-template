@@ -5,8 +5,14 @@ import styles from 'styles/Home.module.css';
 const Home: FC = () => (
   <div className={styles.container}>
     <Head>
-      <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
+      <title>TODO: Title of this page</title>
+      <meta name="description" content="TODO: Description of this page" />
+      {/* OGP */}
+      <meta property="og:title" content="TODO: Title of this page" />
+      <meta property="og:description" content="TODO: Description of this page" />
+      <meta property="og:type" content="TODO: website | article" />
+      <meta property="og:url" content="TODO: URL of this page" />
+      <meta property="og:image" content="TODO: OGP image  of this page" />
     </Head>
 
     <main className={styles.main}>
