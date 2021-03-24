@@ -18,4 +18,8 @@ $ yarn
 $ git remote rm origin
 $ git remote add origin <your_repository>
 $ git push -u origin main
+
+# Customize README and complete TODOs...
+
+Happy hacking! 😉
 ```
